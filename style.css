@@ -2,9 +2,9 @@
 
 
 :root {
-	--fundo: #610000;		
+	--fundo: #000000;		
 	--preto: #000000;
-	--branco: #FFFFFF;
+	--amarelo: #ebb800;
 	--botao-on: #3A375E;
 	--botao-off: rgba(58, 55, 94, 0.5);
 	--texto-fundo: rgba(58, 55, 94, 0.3);	/*definindo variáveis*/
@@ -12,7 +12,7 @@
 
 body {
 	background-color: var(--fundo);  /*configurando o body */
-	color: var(--branco);
+	color: var(--amarelo);
 	font-family: "Chakra Petch", sans-serif;
 
 	}	
@@ -40,7 +40,7 @@ body {
 .botao {
 	font-family: "Chakra Petch", sans-serif; /* definindo a fonte usada no botao */
 	background-color: var(--botao-off); /* cor do botao "desligado" */
-	color: var(--branco); 
+	color: var(--amarelo); 
 	display: flex; /* cor da fonte */
 	justify-content: center;
 	padding: 1em;
