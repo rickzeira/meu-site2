@@ -2,7 +2,7 @@
 
 
 :root {
-	--fundo: #ebb800;		
+	--fundo: #000000;		
 	--preto: #000000;
 	--amarelo: #ebb800;
 	--botao-on: #3A375E;
@@ -28,7 +28,7 @@ body {
 }
 
 .titulo-principal {   		/*alinhando texto a esquerda */
-	text-align: left;
+	text-align: center;
 	width: 100%;
 	font-size: 32px;
 }
@@ -80,6 +80,7 @@ body {
 .aba-conteudo-titulo-princial{
 	font-size: 28px;
 	text-align: center;
+	justify-content: center;
 }
 
 .aba-conteudo-titulo-secundario{
